@@ -1,6 +1,6 @@
 const board = document.getElementById('board');
 const status = document.getElementById('status');
-const socket = new WebSocket('ws://localhost:8000/ws');
+const socket = new WebSocket('wss://tic-tac-toe-backend.onrender.com/ws');
 
 let player = null;
 
